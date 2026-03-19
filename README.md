@@ -1,3 +1,15 @@
+## This repository
+
+Mirrors [ziglings on Codeberg](https://codeberg.org/ziglings/ziglings).
+
+To sync with upstream:
+```bash
+git remote add upstream https://codeberg.org/ziglings/ziglings
+git fetch upstream && git merge upstream/main && git push origin main
+```
+
+<details>
+<summary>Original README</summary>
 # Ziglings
 
 Welcome to Ziglings! This project contains a series of tiny
@@ -267,3 +279,6 @@ tons of room for improvement:
 
 Please see [CONTRIBUTING](https://codeberg.org/ziglings/exercises/src/branch/main/CONTRIBUTING.md)
 in this repo for the full details.
+</details>
+
+
